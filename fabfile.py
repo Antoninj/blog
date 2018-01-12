@@ -14,7 +14,6 @@ DEPLOY_PATH = env.deploy_path
 
 # Remote server configuration
 env.use_ssh_config = True
-#production = 'ec2-user@35.164.150.189:22'
 dest_path = '/var/www/html/neolin'
 
 # Rackspace Cloud Files configuration settings

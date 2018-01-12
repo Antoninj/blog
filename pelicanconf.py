@@ -3,11 +3,12 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Antonin Jousson'
-SITENAME = 'Neolin'
-SITEURL = 'neolin.me'
+SITENAME = 'neolin.me'
+SITEURL = 'http://neolin.me'
 
 # PATHS
-STATIC_PATHS = ['images', 'pdfs']
+STATIC_PATHS = ['images', 'pdfs', 'extra/CNAME']
+EXTRA_PATH_METADATA = { 'extra/CNAME': {'path': 'CNAME'}}
 
 THEME = "responsive"
 
