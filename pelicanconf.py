@@ -19,7 +19,7 @@ STATIC_PATHS = ['images', 'pdfs', 'extra']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'}}
 
 # Theme template
-THEME = "/Users/Antonin/Documents/Coding stuff/Python/personal-website/pelican-bootstrap3"
+THEME = "/Users/Antonin/Documents/Coding stuff/python/neolin.me/pelican-bootstrap3"
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 BOOTSTRAP_THEME = "paper"
 
@@ -39,10 +39,8 @@ BANNER_ALL_PAGES = True
 DISPLAY_ARTICLE_INFO_ON_INDEX = True
 
 # Plugins
-PLUGIN_PATHS = ["/Users/Antonin/Documents/Coding \
-stuff/Python/pelican-plugins/"]
-PLUGINS = ['neighbors', 'i18n_subsites', 'related_posts',
-           'liquid_tags', 'tag_cloud']
+PLUGIN_PATHS = ["/Users/Antonin/Documents/Coding stuff/python/pelican/pelican-plugins/"]
+PLUGINS = ['neighbors', 'i18n_subsites', 'related_posts', 'liquid_tags', 'tag_cloud']
 
 I18N_TEMPLATES_LANG = 'fr'
 
