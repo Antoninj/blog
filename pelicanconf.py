@@ -8,7 +8,7 @@ SITELOGO ='images/logo.png'
 SITELOGO_SIZE = 45
 HIDE_SITENAME = False
 SITENAME = 'Neolin'
-SITEURL = 'http://neolin.me'
+SITEURL = 'https://neolin.me'
 
 # About me
 AVATAR = 'images/avatar.png'
